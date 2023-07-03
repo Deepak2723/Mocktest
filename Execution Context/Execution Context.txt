@@ -1,0 +1,16 @@
+Execution context is a concept in JavaScript that helps manage the execution of code. 
+It provides an environment for code to run, keeps track of variables and functions, 
+and determines how the code interacts with the surrounding environment. 
+Each time a function is invoked or a block of code is executed, a new execution context is created.
+
+In the diagram, you can see two types of execution contexts:
+
+Global Execution Context:
+ It represents the default or top-level execution context in a JavaScript program.
+It is created when the script starts executing and remains active until the script finishes. 
+It includes the global scope and all the variables and functions defined in the global scope.
+
+Function Execution Context: 
+It is created whenever a function is invoked. 
+Each function call has its own separate execution context, which includes the function's local variables, function arguments, and inner functions.
+Function execution contexts are created and destroyed dynamically as functions are called and return.
